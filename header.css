@@ -8,7 +8,7 @@ nav {
 }
 
 nav img {
-  width: 150px;
+  width: 130px;
   margin-left: 70px;
 }
 
@@ -21,7 +21,7 @@ nav img {
 .contact a {
   font-size: 20px;
   font-weight: bold;
-  margin-right: 200px;
+  margin-right: 100px;
   text-decoration: none;
   color: black;
 }

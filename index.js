@@ -131,6 +131,5 @@ genText.addEventListener("click", function() {
     "You bring happiness into my life",
   ]
   const textEl = document.querySelector(".textMessage")
-  textEl.innerHTML = messages[Math.floor( Math.random()*messages.length )]
+  textEl.textContent = messages[Math.floor( Math.random()*messages.length )]
 })
-

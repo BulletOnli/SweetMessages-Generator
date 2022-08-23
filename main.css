@@ -97,18 +97,23 @@ main {
   align-items: center;
 }
 
+.generate i {
+  margin: 0 20px;
+}
+
 .generate button {
   font-size: 20px;
   font-weight: bold;
   padding: 10px 30px;
-  background-color: #ff3688;
+  background-color: #fd72aa;
   border: 3px solid black;
   border-radius: 15px;
   cursor: pointer;
+  margin: 0 10px;
 }
 
 .generate button:hover {
-  background-color: #fd72aa;
+  background-color: #ff3688;
 }
 
 @media (max-width: 900px) {
