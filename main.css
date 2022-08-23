@@ -121,6 +121,10 @@ main {
   .section-b {
     margin-right: 70px;
   }
+  .generate button {
+    padding: 5px 10px;
+    margin: 0;
+  }
 }
 
 @media (max-width: 700px) {
@@ -159,6 +163,10 @@ main {
     margin: 0;
     width: 400px;
   }
+  .generate button {
+    padding: 5px 10px;
+    margin: 0;
+  }
   .title p{
     font-size: 50px;
     line-height: 50px;
@@ -173,30 +181,35 @@ main {
 @media (max-width: 400px) {
   main {
     width: 100vw;
-    height: 850px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
   .section-a {
     width: 100%;
-    height: 70px;
-    margin-bottom: 150px;
-    margin-top: 150px;
   }
   .section-b {
     width: 100%;
     height: 500px;
-    margin-top: 10px;
   }
   .container {
     width: 330px;
+  }
+
+  .generate button {
+    padding: 5px 10px;
+    margin: 0;
+  }
+  .text-section {
+    width: 100%;
+    height: 200px;
   }
   .title p{
     font-size: 50px;
     line-height: 50px;
     text-align: center;
-    margin: 0
+    margin-top: 40px;
   }
   .description p{
     font-size: 16px;
