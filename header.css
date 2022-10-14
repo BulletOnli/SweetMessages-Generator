@@ -5,7 +5,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: fixed;
+  border-bottom: 2px solid black;
 }
 
 nav img {
